@@ -1,0 +1,41 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+
+}
+
+.formField {
+  max-width: 300px;
+  width: 100%;
+  height: 36px;
+  padding-left: 10px;
+  border: 2px solid #FB2E86;
+  border-radius: 5px;
+  outline: none;
+  color: #5c5b5b;
+  background: #F2F0FF;
+  margin-bottom: 15px;
+}
+
+.formButton {
+  max-width: 200px;
+}
+
+.formErrorMessage {
+  color: #FB2E86;
+}
+
+.formBtn {
+  margin-top: 20px;
+  border: none;
+  background: #FB2E86;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+}
+
+.block {
+  text-align: center;
+}

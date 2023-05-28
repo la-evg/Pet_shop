@@ -1,0 +1,77 @@
+.bottomHeader{
+  background: #F2F0FF;
+  padding: 19px 0;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  padding: 10px 0;
+}
+
+.navList li {
+  margin-right: 35px;
+}
+
+.navList a {
+  text-decoration: none;
+  /*убираем подчеркивание текста ссылок*/
+  line-height: 19px;
+  color: #0D0E43;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.logoLink {
+  margin-right: 90px;
+}
+
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.searchNav input {
+  width: 100%;
+  height: 36px;
+  padding-left: 10px;
+  border: 2px solid #FB2E86;
+  border-radius: 5px;
+  outline: none;
+  color: #5c5b5b;
+  background: #F2F0FF;
+}
+
+.searchNav button {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 40px;
+  border: none;
+  background: #FB2E86;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.searchNav button:before {
+  font-size: 16px;
+  color: #F9F0DA;
+}

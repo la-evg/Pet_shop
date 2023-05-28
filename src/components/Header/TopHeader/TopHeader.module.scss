@@ -1,0 +1,37 @@
+.nav {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  padding: 10px 0;
+}
+
+.nav li {
+  margin-right: 1.5rem;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+.nav img {
+  margin: 0 0.3rem;
+  cursor: pointer;
+}
+
+.nav a {
+  text-decoration: none;
+  /*убираем подчеркивание текста ссылок*/
+  font-size: 16px;
+  line-height: 19px;
+  color: #F1F1F1;
+}
+
+.topHeader {
+  background-color: #7E33E0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
